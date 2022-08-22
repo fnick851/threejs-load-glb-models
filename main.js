@@ -25,7 +25,7 @@ scene.add(light1);
 const loader = new GLTFLoader();
 
 loader.load(
-  "./boss_nobone.glb",
+  "./boss.glb",
   function (gltf) {
     scene.add(gltf.scene);
   },
@@ -36,7 +36,7 @@ loader.load(
 );
 
 loader.load(
-  "./boss.glb",
+  "./boss_100x.glb",
   function (gltf) {
     scene.add(gltf.scene);
   },
