@@ -36,7 +36,7 @@ loader.load(
 );
 
 loader.load(
-  "./boss_100x.glb",
+  "./boss_nobone.glb",
   function (gltf) {
     scene.add(gltf.scene);
   },
